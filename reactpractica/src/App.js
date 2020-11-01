@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import react from 'react'
+import NavBar from './NavBar'
+import Pet from './Pet'
+import Detail from './detail'
 function App() {
   return (
     <div className="App">
-    <h1>xd</h1>
+    <NavBar title='Petapp'/>
+    <Pet name='luna' animal='dog' breed='havanese' location='medellin'/>
+    <Pet name='pepper' animal='Bird' breed='cockatiel'/>
+    <Detail id='44895939'/>
     </div>
   );
 }
